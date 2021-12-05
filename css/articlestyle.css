@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+:root{
+    background: #222;
+    color:#a5a6ab;
+}
+h1{
+    color:#e93;
+}
+header,main,footer{
+    width: fit-content;
+    background: #738;
+    padding:20px
+}
+header img{
+    background: #222;
+    width: 500px;
+    height:100px;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+footer,header{
+    background: #222;
+}
+nav{
+    background:#738;
+    border: 3.5px solid #e93;
+    border-radius: 5px;
+    width: 700px;
+    margin: 10px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left :180px;
+}
+nav li {
+    margin-left: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+    color:#9e6;
+    margin-left: 20px;
+}
+nav a:hover{
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+    color:black;
+    background: white;
+    border-radius: 10px;
+}
+main{
+    border-radius: 20px;
+    width: 900px;
+}
+article p,article ul li{
+    font-family: 'Cairo', sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+}
