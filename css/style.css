@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&display=swap');
+:root{
+    background: #222;
+    color:#a5a6ab;
+}
+h2{
+    color:#e93;
+    text-decoration: underline;
+}
+header img{
+    background: #222;
+    width: 500px;
+    height:100px;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+header,main,footer{
+    width: fit-content;
+    background: #738;
+
+}
+footer{
+    background: #222;
+}
+main{
+    width: 1250px;
+    padding:20px
+}
+nav{
+    background:#738;
+    border: 3.5px solid #e93;
+    border-radius: 5px;
+    width: 700px;
+    margin: 10px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left :180px;
+}
+nav li {
+    margin-left: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+    color:#9e6;
+    margin-left: 20px;
+}
+nav a:hover{
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+    color:black;
+    background: white;
+    border-radius: 10px;
+}
+main{
+    border-radius: 20px;
+    width: 800;
+}
+article{
+    display: flex;
+}
+hr {
+    margin-top: 20px;
+    height:5px;
+    background: #a5a6ab;
+    border: 2px solid #aaa;
+
+}
+article p {
+    padding:10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+article img {
+    width:250px;
+    height: 100px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+}
+p a {
+    text-decoration: none;
+    color:#9e6;
+}
