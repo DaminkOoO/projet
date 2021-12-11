@@ -57,6 +57,8 @@ nav a{
     text-align: center;
     color:#9e6;
     margin-left: 20px;
+    margin-left: 20px;
+
 }
 nav a:hover{
     text-decoration: none;
@@ -65,6 +67,10 @@ nav a:hover{
     color:black;
     background: white;
     border-radius: 10px;
+}
+img:hover,nav:hover,main:hover,footer:hover{
+    transition: .5s;
+    transform: scale(1.2);
 }
 main{
     border-radius: 20px;

@@ -51,6 +51,7 @@ nav a{
     text-align: center;
     color:#9e6;
     margin-left: 20px;
+    transition: .5s;
 }
 nav a:hover{
     text-decoration: none;
@@ -85,12 +86,18 @@ article img {
     border: 5px solid #000;
     border-radius: 10px;
 }
+img:hover,nav:hover,main:hover,footer:hover{
+    transition: .5s;
+    transform: scale(1.2);
+}
 p{
     font-size: 20px;
+    
 }
 p a {
     text-decoration: none;
     color:#9e6;
+    transition: .5s;
 }
 p a:hover {
     text-decoration: none;
